@@ -13,14 +13,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col md:flex-row">
-      {/* Sidebar คะแนน */}
-      {config && (
-        <aside className="w-full md:w-64 bg-white shadow-lg p-6 flex-shrink-0">
-          <h2 className="text-2xl font-bold mb-6 text-center">📊 คะแนนผู้เล่น</h2>
-          <ScoreBoard players={config.player} />
-        </aside>
-      )}
-
       {/* ส่วนเล่นเกม */}
       <main className="flex-1 p-6 md:p-8 flex justify-center items-start">
         {!config ? (
@@ -29,6 +21,13 @@ export default function App() {
           <GameBoard config={config} setConfig={setConfig} />
         )}
       </main>
+      {/* Sidebar คะแนน */}
+      {config && (
+        <aside className="w-full md:w-64 bg-white shadow-lg p-6 flex-shrink-0">
+          <h2 className="text-2xl font-bold mb-6 text-center">📊 คะแนนผู้เล่น</h2>
+          <ScoreBoard players={config.player} />
+        </aside>
+      )}
     </div>
   );
 }
