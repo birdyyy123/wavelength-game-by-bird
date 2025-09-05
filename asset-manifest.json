@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/wavelength-game-by-bird/static/css/main.a738daa2.css",
+    "main.js": "/wavelength-game-by-bird/static/js/main.95973e45.js",
+    "static/js/453.555ecd32.chunk.js": "/wavelength-game-by-bird/static/js/453.555ecd32.chunk.js",
+    "index.html": "/wavelength-game-by-bird/index.html",
+    "main.a738daa2.css.map": "/wavelength-game-by-bird/static/css/main.a738daa2.css.map",
+    "main.95973e45.js.map": "/wavelength-game-by-bird/static/js/main.95973e45.js.map",
+    "453.555ecd32.chunk.js.map": "/wavelength-game-by-bird/static/js/453.555ecd32.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a738daa2.css",
+    "static/js/main.95973e45.js"
+  ]
+}
